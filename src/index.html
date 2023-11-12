@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="input.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+        referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="d-flex justify-content  ">
+        <div class="back-1">
+            <div class=" font-bold home text-white">
+                <div class="d-flex">
+                    <i class="fa-solid fa-house mt-3 ms-2 me-3 "></i>
+                    <h3 class="mt-3">Home</h3>
+                    <i class="fa-solid fa-magnifying-glass" style="margin-left: -75px; margin-top: 55px;"></i>
+                    <h4 style="margin-left: 15px; margin-top: 55px;">Search</h4>
+                </div>
+                <div>
+                    
+
+                </div>
+
+                
+
+            </div>
+            
+            <div class="library">
+                <div class="library-1 text-white ">
+                    <i class="fa-regular fa-file mt-3"></i>
+                    <h3 class="mt-3">Your Library</h3>
+                    <i class="fa-solid fa-plus mt-3"></i>
+                    <i class="fa-solid fa-arrow-right mt-3"></i>
+                    <br>
+                </div>
+                <div class="library-2 mt-4 ms-2">
+                    <button style="border-radius: 25px;" type="button"
+                        class="btn btn-outline-secondary  text-white">Playlists</button>
+
+                    <button style="border-radius: 25px;" type="button"
+                        class="btn btn-outline-secondary text-white ">Albums</button>
+
+                    <button style="border-radius: 25px;" type="button"
+                        class="btn btn-outline-secondary text-white">Artists</button>
+
+                </div>
+
+                <hr class="text-black mt-3">
+                <div class="back-2">
+                    <div class="scroll-1">
+
+                        <div class="lib-3 d-flex">
+                            <img class="mt-2 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/32/30/ea/3230eabbd4d9fcfa67d913c0b1c290bf.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Ali Gatie</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        
+                        <div class="lib-3 d-flex">
+                            <img class="mt-1 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/4a/67/2c/4a672ce133df651dd9d0058551ca72d5.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-1 ms-3">
+                                <h4 class="fw-bold text-white">Alan Walker</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img style="border-radius: 10px;" class="mt-1 ms-3 " width="50px"
+                                src="https://i.pinimg.com/564x/df/1b/7e/df1b7e42709e01402d4b13be9a975205.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Heart Beats</h4>
+                                <p style="color: rgb(119, 119, 116)">Playlist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img class="mt-1 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/8d/0b/42/8d0b42ed9bb6ace740db7195304a766d.jpg" alt="">
+                            <div class="mt-2 ms-3">
+                                <h4 class="fw-bold text-white">NF</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                      
+                        <div class="lib-3 d-flex">
+                            <img class="mt-1 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/2f/12/48/2f1248d5d8b4c3425f99032a1e5df946.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Billie Eillish</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img style="border-radius: 10px;" class="ms-3 mt-1" width="50px"
+                                src="https://i.pinimg.com/564x/ed/ea/7c/edea7c9566656f9f1f2402ae13bff753.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Hindi Songs</h4>
+                                <p style="color: rgb(119, 119, 116)">Album</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img class="mt-2 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/6d/92/e7/6d92e7a7182a23b4a6e23e42efef9e06.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Tasha Layton</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img class="mt-2 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/52/02/66/5202668cf7469cbe21167236293be83a.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Rauf & Faik</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img class="mt-2 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/a8/bd/d9/a8bdd9a37ac3ac2160fd2d921142d887.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Ali Gatie</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img class="mt-3 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/10/a6/cf/10a6cff0087b155e8825d53d4b910928.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Seven Lions</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+                        <div class="lib-3 d-flex">
+                            <img class="mt-2 ms-3 rounded-circle" width="50px"
+                                src="https://i.pinimg.com/564x/ca/08/1a/ca081a7d16bf4228fc0152c441f0a40d.jpg"
+                                class="card-img-top" alt="">
+                            <div class="mt-3 ms-3">
+                                <h4 class="fw-bold text-white">Jaima Deraz</h4>
+                                <p style="color: rgb(119, 119, 116)">Artist</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="back-3">
+            <div class="scroll-2 ">
+                <div class="container">
+                    <div >
+                        <i class="fa-solid  fa-angle-left" style="color: #f4f7fa; "></i>
+
+                        <i class="ms-2 fa-solid fa-angle-right" style="color: #f4f7fa;"></i>
+                        <button style="margin-left: 75%; background-color: white; border-radius: 25px;" type="button"
+                        class="mt-1 btn btn-outline-secondary text-black fw-bold ">Explore Premium</button>
+                        <i class="ms-3 mt-1 fa-regular fa-bell" style="color: #ecedef;"></i>
+                    </div>
+                    <div class="d-flex mt-5">
+                    <img style="width: 30px; height: 30px;" src="./img/Free_Png_Download_Instagram_Verified_Logo_Png_Imagverified.png" alt="">
+
+                <h4 class="text-white mt-2 ms-2">Verified Artist</h4>
+                </div>
+<br>
+                    <h1 style="font-size: 80px;" class="text-white fw-bold">NF</h1>
+                    <br>
+                    <p class="text-white">15,605,514 monthly listeners</p>
+
+                </div>
+
+                <div class="caption ">
+
+
+                    <i style="font-size: xxx-large; color: #1adb30; " class="fa-solid mt-3 ms-3 fa-circle-play"></i>
+
+
+
+                    <i style="color: #808584; font-size: xx-large;" class="fa-solid fa-shuffle mt-4 ms-3 "></i>
+
+                    <button style="border-radius: 25px;" type="button"
+                        class="flw btn btn-outline-secondary ms-3 mt-4 text-white fw-bold ">Following</button>
+                        <i class="ms-4 mt-4 fa-solid fa-ellipsis" style="color: #808584; font-size: x-large;"> </i>
+
+                    
+
+
+                </div>
+
+                <br>
+                <div class="popular fw-bold text-white">
+                    <h3>Popular</h3>
+                </div>
+
+
+                <br>
+
+
+                <div class="pop-1 d-flex ">
+                    <h3 class="mt-3 ms-4 fw-bold text-white">1</h3>
+                    <img class="mt-1 ms-3 md-3"
+                        src="https://i.pinimg.com/564x/b5/86/62/b586627f9b488fb94e0c906b47e3054d.jpg"
+                        class="card-img-top" alt="">
+                    <div class="mt-3 ms-3 md-1">
+                        <h4 class="fw-bold text-white">Let You Down</h4>
+                    </div>
+                    <div class="number mt-3">
+                        <p style="margin-left: 400px;">1,374,119,726</p>
+
+                        <i class="fa-solid mt-1 fa-heart" style="color: #1dc51a; margin-left: 200px;"></i>
+
+                        <p style="margin-left: 50px;">3:32</p>
+                    </div>
+                </div>
+
+                <div class="pop-1 d-flex ">
+                    <h3 class="mt-3 ms-4 fw-bold text-white">2</h3>
+                    <img class="mt-1 ms-3 md-3"
+                        src="https://i.pinimg.com/564x/ee/62/0a/ee620ace8b304f9df2b51075182e9f45.jpg"
+                        class="card-img-top" alt="">
+                    <div class="mt-3 ms-3 md-1">
+                        <h4 class="fw-bold text-white">The search</h4>
+                    </div>
+                    <div class="number mt-3">
+                        <p style="margin-left: 435px;">508,997,896</p>
+
+
+
+                        <p style="margin-left: 270px;">4:08</p>
+                    </div>
+                </div>
+
+                <div class="pop-1 d-flex ">
+                    <h3 class="mt-3 ms-4 fw-bold text-white">3</h3>
+                    <img class="mt-1 ms-3 md-3"
+                        src="https://i.pinimg.com/564x/39/2b/a1/392ba1df7d4f6822c283aacef892efd4.jpg"
+                        class="card-img-top" alt="">
+                    <div class="mt-3 ms-3 md-1">
+                        <h4 class="fw-bold text-white">HOPE</h4>
+                    </div>
+                    <div class="number mt-3">
+                        <p style="margin-left: 475px;">116,268,726</p>
+
+                        <i class="fa-solid mt-1 fa-heart" style="color: #1dc51a; margin-left: 200px;"></i>
+
+                        <p style="margin-left: 50px;">4:24</p>
+                    </div>
+                </div>
+
+                <div class="pop-1 d-flex ">
+                    <h3 class="mt-3 ms-4 fw-bold text-white">4</h3>
+                    <img class="mt-1 ms-3 md-3"
+                        src="https://i.pinimg.com/564x/80/ed/ae/80edae1a4708233278a63ed886d2573c.jpg"
+                        class="card-img-top" alt="">
+                    <div class="mt-3 ms-3 md-1">
+                        <h4 class="fw-bold text-white">Lie</h4>
+                    </div>
+                    <div class="number mt-3">
+                        <p style="margin-left: 495px;">531,945,526</p>
+
+                        <i class="fa-solid mt-1 fa-heart" style="color: #1dc51a; margin-left: 200px;"></i>
+
+                        <p style="margin-left: 50px;">3:29</p>
+                    </div>
+                </div>
+
+                <div class="pop-1 d-flex ">
+                    <h3 class="mt-3 ms-4 fw-bold text-white">5</h3>
+                    <img class="mt-1 ms-3 md-3"
+                        src="https://i.pinimg.com/564x/fc/d6/2a/fcd62a99eb878fcb86ef4947c28f9a0e.jpg"
+                        class="card-img-top" alt="">
+                    <div class="mt-3 ms-3 md-1">
+                        <h4 class="fw-bold text-white">HAPPY</h4>
+                    </div>
+                    <div class="number mt-3">
+                        <p style="margin-left: 470px;">81,129,045</p>
+
+
+
+                        <p style="margin-left: 270px;">4:02</p>
+                    </div>
+
+                </div>
+                <a style=" margin-left: 50px; color: rgb(119, 119, 116);" href="#">See More</a>
+
+
+
+
+                <br><br>
+
+
+                <div class="popular fw-bold text-white">
+                    <h3>Discography</h3>
+                </div>
+
+
+
+                <div class="library-2 mt-4 ms-2" style="margin-left: 50px;">
+                    <button style="border-radius: 25px;" type="button"
+                        class="btn btn-outline-secondary  text-white">Popular releases</button>
+
+                    <button style="border-radius: 25px;" type="button"
+                        class="btn btn-outline-secondary text-white ">Albums</button>
+
+                    <button style="border-radius: 25px;" type="button"
+                        class="btn btn-outline-secondary text-white">Single and EPs</button>
+
+                </div>
+                <br><br>
+
+
+
+                <div class="row d-flex justify-evenly">
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/5d/03/f6/5d03f60f7cc5b550b2dade10ccf47e59.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" m-1">
+                            <br>
+                            <h3 class="fw-bold">The Search</h3>
+                            <h4 class="text-slate-600 ">2019. Album</h4>
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/f1/93/25/f193259d390d55d109160ba7ebf056e1.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class="mt-3 ">
+
+                            <h3 class="fw-bold">HOPE</h3>
+                            <h4 class="text-slate-600 ">2023. Album</h4>
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card ms-4 text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/b0/c0/52/b0c05288fe940c2260cf5ef5245ce24e.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" mt-2">
+
+                            <h3 class="fw-bold">CLOUDS</h3>
+                            <h4 class="text-slate-600 ">2021. Album</h4>
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card ms-4 text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/2a/90/ba/2a90bab1e39a3a09b8b5e9e8f3c257c7.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" mt-2">
+                            <h3 class="fw-bold">Perception</h3>
+                            <h4 class="text-slate-600 ">2017. Album</h4>
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <br> <br>
+                <div class="popular fw-bold text-white">
+                    <h3>Artist Playlist</h3>
+                </div>
+                <br> <br>
+
+                <div class="d-flex justify-evenly">
+
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/6MxMqCgqmekcr0VwSU7AVH?utm_source=generator"
+                        width="30%" height="300" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/5DHQKZCOZhGNTbYBCekWx0?utm_source=generator"
+                        width="30%" height="300" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/3ZEno9fORwMA1HPecdLi0R?utm_source=generator"
+                        width="30%" height="300" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+
+
+                <div class="popular fw-bold text-white">
+                    <h3>Appears On</h3>
+                </div>
+                <br> <br>
+
+                <div class="row d-flex justify-evenly">
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/a0/e4/a6/a0e4a6596ddd802324991d1c2a6e2c5d.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" m-1">
+
+                            <h3 class="fw-bold">Spaceman</h3>
+                            <h4 class="text-slate-600 ">2019. Nick Jonas</h4>
+
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/48/eb/bf/48ebbf56832fb7487a058842b9f2ddf1.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" m-1">
+
+                            <h3 class="fw-bold">Its You</h3>
+                            <h4 class="text-slate-600 ">2019. Ali Gatie</h4>
+
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/01/bf/d4/01bfd40cace65cfe069002e81bf31aab.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" m-1">
+
+                            <h3 class="fw-bold">Hurts So Good</h3>
+                            <h4 class="text-slate-600 ">2017. Astrid S</h4>
+
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/c4/1f/1c/c41f1cad268686b483b173e488df9869.jpg" class="w-100"
+                            style="margin-top: 10px; border-radius: 10px;" alt="...">
+                        <div class=" m-1">
+
+                            <h3 class="fw-bold">Faded</h3>
+                            <h4 class="text-slate-600 ">2018. Alan Walker</h4>
+
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+                <br><br>
+                <div class="popular fw-bold text-white">
+                    <h3>Fans Also Like</h3>
+                </div>
+
+                <br><br>
+
+                <div class="row d-flex justify-evenly">
+
+                    <div class="card  text-white"
+                    style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                    <img src="https://i.pinimg.com/564x/8a/88/3f/8a883fc0c643e25f22323ce15955f9ea.jpg" class="w-100 rounded-circle"
+                        style="margin-top: 10px; " alt="...">
+                    <div class=" m-1">
+
+                        <h3 class="fw-bold">Lea Michele</h3>
+                        <h4 class="text-slate-600 ">Artist</h4>
+
+
+                    </div>
+
+                    <div class="content ">
+
+                        <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                            class="fa-solid  me-2 fa-circle-play"></i>
+                    </div>
+                </div>
+
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/43/3e/91/433e917cc1d39beb72dafba5c7577e14.jpg" class="w-100 rounded-circle"
+                            style="margin-top: 10px; " alt="...">
+                        <div class=" m-1">
+
+                            <h3 class="fw-bold">Tom MacDonald</h3>
+                            <h4 class="text-slate-600 ">Artist</h4>
+
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card  text-white"
+                        style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                        <img src="https://i.pinimg.com/564x/43/4c/07/434c07d8cd444343848948a6c4104aa3.jpg" class="w-100 rounded-circle"
+                            style="margin-top: 10px; " alt="...">
+                        <div class=" m-1">
+
+                            <h3 class="fw-bold">Ali Gatie</h3>
+                            <h4 class="text-slate-600 ">Artist</h4>
+
+
+                        </div>
+
+                        <div class="content ">
+
+                            <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                                class="fa-solid  me-2 fa-circle-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="card  text-white"
+                    style="background-color: rgb(37, 37, 37); width: 220px; height: 280px; border-radius: 10px;">
+                    <img src="https://i.pinimg.com/564x/f6/f4/79/f6f479980df958c7b9af41ad08ae6733.jpg" class="w-100 rounded-circle"
+                        style="margin-top: 10px; " alt="...">
+                    <div class=" m-1">
+
+                        <h3 class="fw-bold">Halsey</h3>
+                        <h4 class="text-slate-600 ">Artist</h4>
+
+
+                    </div>
+
+                    <div class="content ">
+
+                        <i style="font-size: xxx-large;  color: #1adb30; margin-top: 180px; "
+                            class="fa-solid  me-2 fa-circle-play"></i>
+                    </div>
+                </div>
+
+                
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>
